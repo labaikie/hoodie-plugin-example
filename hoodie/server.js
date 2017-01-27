@@ -15,7 +15,7 @@ var nodemailer = require('nodemailer')
 //       }
 //     })
 function register (server, options, next) {
-  var transporter = nodemailer.createTransport(options.mailer)
+  var transporter = nodemailer.createTransport(options.email.transport)
 
   server.route({
     method: 'POST',
