@@ -1,5 +1,5 @@
 module.exports.register = register
-module.exports.attributes = {
+module.exports.register.attributes = {
   name: 'hoodie-email'
 }
 
