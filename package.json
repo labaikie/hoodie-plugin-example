@@ -1,5 +1,5 @@
 {
-  "name": "plugin-example",
+  "name": "hoodie-plugin-example",
   "version": "1.0.0",
   "description": "> Dummy code to inform & discuss the implementation of 3rd party plugins",
   "main": "index.js",
