@@ -37,4 +37,6 @@ function register (server, options, next) {
       .catch(reply)
     }
   })
+  
+  next()
 }
