@@ -19,9 +19,9 @@ function register (server, options, next) {
 
   server.route({
     method: 'POST',
-    path: '/api/send',
+    path: '/hoodie/email/api/send',
     handler: function (request, reply) {
-      var sendOptions = request.payload
+      var sendOptions = JSON.parse(request.payload)
 
       transporter.sendMail({
         from: 'user@gmail.com',
